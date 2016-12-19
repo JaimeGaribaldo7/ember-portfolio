@@ -1,2 +1,36 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
+
+$darkbg: #2c2020;
+$reggrey: #95dddd;
+$cleargrey: rgba(230, 234, 233, .35);
+
+$lightblue: #92cccc;
+$palepink: #fff5f5;
+$black: #039;
+
+.inner-layer {
+  background-color: $cleargrey;
+}
+
+.navbar {
+  background-color: $cleargrey;
+  font: 1.5em bold trebuchet;
+  height: 10%;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: right;
+  width: auto;
+}
+
+.inline {
+  display: inline;
+}
+
+.center-box {
+  color: $black;
+}
+
+.image {
+  color: $black;
+}

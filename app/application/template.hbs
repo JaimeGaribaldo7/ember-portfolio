@@ -1,3 +1,10 @@
-<h1> Welcome to Ember! </h1>
+<div class="main-content">
+  <nav class="navbar">
+    <div class="inline">{{#link-to 'index'}}Welcome{{/link-to}}</div>
+    <div class="inline">{{#link-to 'about'}}About Me{{/link-to}}</div>
+    <div class="inline">{{#link-to 'skills'}}Skills{{/link-to}}</div>
+    <div class="inline">{{#link-to 'contact'}}Contact{{/link-to}}</div>
+  </nav>
+</div>
 
 {{outlet}}
